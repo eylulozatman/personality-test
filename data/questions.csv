@@ -1,5 +1,5 @@
 question_id,question,type
-1,Kendimi eleştirmeye eğilimliyim.,1
+1,Arkadaşlarımın yanlış davranışlarını nazikçe ama kesinlikle düzeltmeye çalışırım.,1
 2,Hataları fark ettiğimde düzeltme ihtiyacı hissederim.,1
 3,Her şeyin doğru ve adil olması benim için önemlidir.,1
 4,Başkalarının sorumluluklarını yerine getirmemesi beni rahatsız eder.,1
@@ -8,10 +8,10 @@ question_id,question,type
 7,Duygularımdan çok mantığıma güvenirim.,1
 8,Kusursuzluk için çabalamak beni motive eder.,1
 9,Başkalarına yardım etmeyi hayatımın önemli bir parçası olarak görürüm.,2
-10,Bazen kendi ihtiyaçlarımı ikinci plana atarım.,2
+10,Kendi duygularımı gizleyip, başkalarının rahatlaması için rol yapabilirim.,2
 11,Sevgi görmek için başkalarına destek olmalıyım gibi hissederim.,2
-12,İnsanlar beni ihtiyaç duyduklarında değerli hissederim.,2
-13,Başkalarının mutluluğu için elimden geleni yaparım.,2
+12,İnsanlar bena ihtiyaç duyduklarında değerli hissederim.,2
+13,Hastalanan bir yakınımı ziyaret etmek, ona moral vermek benim için önemlidir.,2
 14,Takdir edilmek benim için çok önemlidir.,2
 15,Birinin yardım istemesini beklemeden destek olmayı tercih ederim.,2
 16,Yakınlarım beni sevsin diye çaba gösteririm.,2
@@ -22,14 +22,14 @@ question_id,question,type
 21,İnsanların beni takdir etmesi hoşuma gider.,3
 22,Hedeflerime ulaşmak hayatımda çok önemlidir.,3
 23,Yüksek performans gösterdiğimde kendimi iyi hissederim.,3
-24,Başarısızlık hissi beni fazlasıyla etkiler.,3
+24,Performans değerlendirmeleri benim için çok önemlidir ve buna göre hareket ederim.,3
 25,Duygularım yoğun ve derindir.,4
-26,Kendimi diğerlerinden farklı ve özgün hissederim.,4
+26,Kendi tarzımı ve bireyselliğimi kıyafetlerimle veya eşyalarımla yansıtırım.,4
 27,Bazen kendimi yalnız ve farklı hissederim.,4
 28,Melankolik ya da duygusal hissettiğim zamanlar olur.,4
-29,Bireyselliğimi ifade etmeye önem veririm.,4
+29,Kendi duygularımı ifade etmek için şiir, müzik veya resim gibi yolları tercih ederim.,4
 30,Sanatsal ya da yaratıcı faaliyetlere yatkınım.,4
-31,Duygularımı derinlemesine yaşarım.,4
+31,Kalabalık ortamlarda bile iç dünyamda sık sık yalnızlık hissederim.,4
 32,İç dünyam karmaşık ve zengindir.,4
 33,Bilgi edinmek benim için çok değerlidir.,5
 34,Bir konuya derinlemesine odaklanmayı severim.,5
@@ -63,11 +63,11 @@ question_id,question,type
 62,Başkalarının haklarını korumak isterim.,8
 63,Kontrolü elde tutmak bana güven verir.,8
 64,Duygularımı açıkça göstermem.,8
-65,Çatışmalardan uzak durmaya çalışırım.,9
+65,Evde ya da işte barış ortamı sağlamak için sorumluluk almaktan çekinmem.,9
 66,Herkesin uyum içinde olması benim için önemlidir.,9
 67,Sakin ve huzurlu ortamları severim.,9
 68,Genellikle kendi ihtiyaçlarımı geri planda tutarım.,9
 69,Ortamda huzur sağlamak için çaba gösteririm.,9
-70,Kendi isteklerimden çok başkalarının beklentilerine odaklanırım.,9
+70,Çatışmalardan kaçınmak için bazen kendi görüşlerimi saklarım.,9
 71,Durumu anlamadan harekete geçmem.,9
 72,Sosyal uyumu korumak benim için doğaldır.,9
