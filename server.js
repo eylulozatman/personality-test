@@ -137,6 +137,12 @@ app.get('/api/result', async (req, res) => {
     return res.status(500).json({ error: 'Sunucu hatası' });
   }
 });
+
+
+// app.listen(PORT, () => {
+//   console.log(`Server is running on http://localhost:${PORT}`);
+// });
+
 app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });

@@ -1,5 +1,5 @@
 let currentPage = 0;
-const questionsPerPage = 10;
+const questionsPerPage = 9;
 let questions = [];
 const answers = {}; // { question_id: weight }
 
@@ -16,7 +16,7 @@ function showPage() {
   const start = currentPage * questionsPerPage;
   const end = Math.min(start + questionsPerPage, questions.length);
 
-  document.getElementById('question-text').textContent = `Sayfa ${currentPage + 1} - ${end}`;
+  document.getElementById('question-text').textContent = `Sayfa ${currentPage + 1} `;
 
   for (let i = start; i < end; i++) {
     const q = questions[i];
