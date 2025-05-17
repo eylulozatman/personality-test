@@ -107,6 +107,6 @@ app.get('/api/result', async (req, res) => {
     });
 });
 
-app.listen(PORT, () => {
-  console.log(`Server running at http://localhost:${PORT}`);
+app.listen(port, () => {
+  console.log(`Server running on port ${port}`);
 });
