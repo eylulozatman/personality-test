@@ -1,139 +1,158 @@
-/* Genel body ve temel ayarlar */
+/* General Styles */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f9fafb;
+  background-color: #f5f7fa;
+  color: #333;
+  line-height: 3.6;
   margin: 0;
   padding: 20px;
-  color: #222;
-  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
-/* Sayfa numarası ve üst bilgi */
-#question-text {
-  font-size: clamp(1.2rem, 2vw, 1.6rem);
-  font-weight: 700;
-  margin-bottom: 25px;
-  color: #34495e;
-  text-align: center;
-  max-width: 90vw;
-}
-
-/* Soruların ve seçeneklerin kapsayıcısı */
-#options-container {
-  background-color: #fff;
-  max-width: 720px;
-  width: 90vw;
-  padding: 25px 30px;
+#question-container {
+  background-color: white;
   border-radius: 10px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+  padding: 25px;
   box-sizing: border-box;
+}
+
+h1 {
+  color: #4a5568;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 2.8rem;
+}
+
+#question-box {
+  margin-bottom: 30px;
+}
+
+#question-text {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #2d3748;
+}
+
+#options-container {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 12px;
 }
 
-/* Her soru bloğu */
-.question-item {
-  /* Soru metni ve seçenekler arasındaki boşluk */
-}
-
-/* Soru metni */
-.question-item > p {
-  font-size: clamp(1rem, 1.8vw, 1.3rem);
-  font-weight: 600;
-  margin-bottom: 15px;
-  color: #2c3e50;
-}
-
-/* Seçenek label'ları */
-label {
-  display: inline-flex;
-  align-items: center;
-  margin-right: 18px;
-  margin-bottom: 8px;
-  font-size: clamp(0.9rem, 1.4vw, 1.1rem);
+.option-btn {
+  background-color: #f8f9fa;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 12px 15px;
   cursor: pointer;
-  user-select: none;
-  color: #555;
-  transition: color 0.3s ease;
+  transition: all 0.3s ease;
+  text-align: left;
+  font-size: 1rem;
 }
 
-label:hover {
-  color: #3498db;
+.option-btn:hover {
+  background-color: #edf2f7;
+  border-color: #cbd5e0;
 }
 
-/* Radio butonlar */
-input[type="radio"] {
-  margin-right: 8px;
-  cursor: pointer;
-  width: 18px;
-  height: 18px;
-  accent-color: #3498db; /* Modern tarayıcılarda renk */
-  flex-shrink: 0;
+.option-btn.selected {
+  background-color: #4299e1;
+  color: white;
+  border-color: #4299e1;
 }
 
-/* Butonlar genel */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 20px;
+}
+
 button {
-  background-color: #2980b9;
-  color: #fff;
+  padding: 12px 20px;
   border: none;
-  padding: clamp(8px, 1.2vw, 14px) clamp(18px, 2.5vw, 28px);
-  margin: 0 8px;
-  border-radius: 7px;
-  font-size: clamp(0.95rem, 1.6vw, 1.25rem);
+  border-radius: 8px;
   cursor: pointer;
-  transition: background-color 0.25s ease;
-  user-select: none;
-  min-width: 100px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  flex: 1;
 }
 
-button:hover:not(:disabled) {
-  background-color: #1f6391;
+#prev-page {
+  background-color: #e2e8f0;
+  color: #4a5568;
 }
 
-button:disabled {
-  background-color: #95a5a6;
-  cursor: not-allowed;
+#prev-page:hover {
+  background-color: #cbd5e0;
 }
 
-/* Buton grubu */
-#prev-page, #next-page, #show-result {
-  display: inline-block;
+#next-page, #show-result {
+  background-color: #4299e1;
+  color: white;
 }
 
-/* Sonuç butonu farklı renk */
-#show-result {
-  background-color: #27ae60;
-  min-width: 130px;
+#next-page:hover, #show-result:hover {
+  background-color: #3182ce;
 }
 
-#show-result:hover:not(:disabled) {
-  background-color: #1e8449;
-}
-
-/* Responsive ayarlar için flex yön değiştirme */
-@media (max-width: 480px) {
-  #options-container {
-    padding: 20px 15px;
+/* Mobile-specific styles */
+@media (max-width: 800px) {
+  body {
+    padding: 70px;
+    align-items: flex-start;
   }
-  
-  label {
-    font-size: 1rem;
-    margin-right: 12px;
-    display: block;
+
+  #question-container {
+    padding: 25px;
+    border-radius: 8px;
   }
-  
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+
+  #question-text {
+    font-size: 3.1rem;
+    margin-bottom: 45px;
+  }
+
+  .option-btn {
+    padding: 10px 12px;
+    font-size: 1.95rem;
+  }
+
   button {
-    width: 100%;
-    margin: 8px 0;
-    min-width: unset;
+    padding: 10px 15px;
+    font-size: 0.9rem;
   }
-  
-  #prev-page, #next-page, #show-result {
-    display: block;
+
+  .button-container {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  button {
+    width: 300%;
+  }
+}
+
+/* Very small devices (e.g., iPhone 5/SE) */
+@media (max-width: 320px) {
+  #question-text {
+    font-size: 1rem;
+  }
+
+  .option-btn {
+    padding: 8px 10px;
+    font-size: 0.9rem;
   }
 }
