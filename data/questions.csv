@@ -1,0 +1,100 @@
+question_id,question,type
+1,Yaptığım işte hata yapmamaya özellikle dikkat ederim.,1
+2,Kurallara uymak benim için çok önemlidir.,1
+3,Kendi hatalarımı düzeltmek için kendimi eleştiririm.,1
+4,İşimde her zaman en mükemmel sonucu elde etmeye çalışırım.,1
+5,Başkalarının etik olmayan davranışları beni rahatsız eder.,1
+6,Düzenli ve planlı çalışmak bana huzur verir.,1
+7,Sorumluluklarım varken eğlenmek kendimi suçlu hissetmeme neden olur.,1
+8,Kendi değerlerim ve inançlarıma göre tutarlı bir biçimde yaşamaya özen gösteririm.,1
+9,Haksızlık veya adaletsizlik karşısında güçlü bir tepki gösteririm.,1
+10,Hatalarımı kabullenmek genellikle zoruma gider.,1
+11,Dinlenmek yerine sürekli gelişmeye odaklanırım.,1
+12,Başkalarına yardım etmekten keyif alırım.,2
+13,Çevremdekiler benden yardım istediğinde geri çevirmek zor gelir.,2
+14,Sevildiğimi hissetmek için genellikle çok yardımcı olmam gerektiğini düşünürüm.,2
+15,Kendimi ihmal etsem bile başkalarının ihtiyaçlarına öncelik veririm.,2
+16,Çoğunlukla başkalarının duygularını kendi duygularımdan daha önemli görürüm.,2
+17,Başkalarının beni takdir etmesi benim için önemlidir.,2
+18,Sevdiğim insanların mutlu olması için elimden gelen her şeyi yaparım.,2
+19,Yakın çevremle duygusal bağ kurmak benim için doğal bir ihtiyaçtır.,2
+20,Biri bana ihtiyaç duymadığında endişelenirim.,2
+21,Başkalarına yardım etmezsem kendimi suçlu hissederim.,2
+22,Sevgi veya ilgi eksikliği hissettiğimde kendimi değersiz hissederim.,2
+23,Başarıya ulaşmak benim için çok önemlidir.,3
+24,Kendimi diğerlerinden farklı gösterecek başarılar elde etmek isterim.,3
+25,Çoğu zaman başkalarının beni takdir etmesini isterim.,3
+26,Bir hedefime ulaşamadığımda kendimi başarısız hissederim.,3
+27,Rekabete girdiğimde kazanmak için çok çaba harcarım.,3
+28,Başarılı biri izlenimi bırakmaya özen gösteririm.,3
+29,Kendimi sürekli geliştirmek ve ilerletmek isterim.,3
+30,Elde ettiğim başarıları gururla paylaşırım.,3
+31,Bir hedef belirlediğimde ona ulaşana kadar çalışmaya devam ederim.,3
+32,Bir işi başarabildiğimde çok değerli ve başarılı hissederim.,3
+33,Kendimi değerli hissedebilmek için takdir edilmeye ihtiyaç duyarım.,3
+34,Duygularım genellikle yoğun ve derindir.,4
+35,Kendimi farklı ve özgün biri olarak göstermeye özen gösteririm.,4
+36,Zaman zaman hüzünlü veya melankolik hissettiğimi fark ederim.,4
+37,Kendi tarzımın benzersiz olduğuna inanmak hoşuma gider.,4
+38,Sanatsal faaliyetlerde bulunmak benim için önemlidir.,4
+39,Duygularımı açıkça ifade etmekten çekinmem.,4
+40,Bazen başkalarının anlayamayacağı kadar farklı hissettiğimi düşünürüm.,4
+41,Duygusal ihtiyaçlarımı karşılamadan başka şeylere odaklanmak benim için zordur.,4
+42,Sık sık başkalarının yanında bile yalnız ve tecrit edilmiş hissederim.,4
+43,İç dünyamın görünüşünden çok daha derin ve karmaşık olduğunu düşünürüm.,4
+44,Bazen duygularımı gizleyerek içimde yaşamayı tercih edebilirim.,4
+45,Bilgi sahibi olmak beni güvenli hissettirir.,5
+46,Yeni bir konu hakkında derinlemesine araştırma yapmayı severim.,5
+47,Sorunları başkalarına ihtiyaç duymadan kendi başıma çözmeyi tercih ederim.,5
+48,Kendimi çaresiz hissetmekten korkarım.,5
+49,Belirsiz durumlarla karşılaştığımda endişelenir ve önceden plan yaparım.,5
+50,Sıklıkla bağımsız ve içine kapanık bir şekilde düşünürüm.,5
+51,Genellikle yalnız başıma zaman geçirmek bana iyi gelir.,5
+52,Önemli bir konu hakkında karar vermeden önce mutlaka bilgi toplamaya çalışırım.,5
+53,Gereksiz detaylarla uğraşmak yerine temel bilgilere odaklanırım.,5
+54,Bilgi edinmeyi ve yeni şeyler öğrenmeyi sürekli bir ihtiyaç olarak görürüm.,5
+55,Yetersiz bilgiye sahip olmak beni rahatsız eder.,5
+56,Her zaman güvenebileceğim birine ihtiyaç duyarım.,6
+57,Beklenmedik durumlar beni endişelendirir.,6
+58,Belirsizlik ve bilinmeyen gelecek beni huzursuz eder.,6
+59,Genellikle olayların kötüye gidebileceğini düşünerek hareket ederim.,6
+60,Zor zamanlarda destek istemekten çekinmem.,6
+61,Planlı ve hazırlıklı olmak benim için çok önemlidir.,6
+62,Yalnız karar vermekten genellikle çekinirim ve başkalarına danışırım.,6
+63,Çoğu zaman risklerden kaçınmaya çalışırım.,6
+64,Yakın çevremdeki insanların desteğini hissetmek beni rahatlatır.,6
+65,Belirli bir karara varmadan önce detaylıca düşünür ve emin olmaya çalışırım.,6
+66,Güvende olmadığımı hissettiğimde gergin ve endişeli olurum.,6
+67,Yeni deneyimler yaşamak beni heyecanlandırır.,7
+68,Genellikle aktivitelerimi planlamak yerine anı yaşamayı tercih ederim.,7
+69,Enerjim yüksek olduğu için çok çeşitli şeylerle ilgilenmekten keyif alırım.,7
+70,Rutin ve monotonluk beni çabuk bunaltır.,7
+71,Hayatta her şeyi deneyimlemek ister ve yeni fırsatlar peşinde koşarım.,7
+72,Genellikle spontane kararlar almayı tercih ederim.,7
+73,Zamanımı sürekli yeni ve eğlenceli şeylerle doldurmaya çalışırım.,7
+74,Geçmişte kaçırdığım fırsatlar için pişman olmamaya özen gösteririm.,7
+75,Çalışmaktansa farklı etkinlikler yaparak meşgul olmaktan hoşlanırım.,7
+76,Mutlu olmak için sık sık yeni aktivitelere katılmam gerektiğini düşünürüm.,7
+77,Aynı anda birden fazla plan yapmaktan ve hepsini tamamlayamamak beni rahatsız etmez.,7
+78,Kendimi güçlü ve kararlı hissetmek benim için önemlidir.,8
+79,Genellikle başkaları yerine karar vermeyi tercih ederim.,8
+80,Haksızlık karşısında hemen tepki gösteririm.,8
+81,Çevremdeki insanlara karşı koruyucu bir tutum takınırım.,8
+82,Genelde lider pozisyonunda olmaktan hoşlanırım.,8
+83,Güçsüz veya kontrolsüz hissetmekten korkarım.,8
+84,Duygularımı açıkça göstermekten çekinirim.,8
+85,Kendi inisiyatifimi kullanarak hareket etmek beni güvenli hissettirir.,8
+86,Gücümü çevreme karşı kullanmaktan çekinmem.,8
+87,Karar verirken genellikle duygularımdan çok mantığımı önceliklendiririm.,8
+88,Zor zamanlarda bile başkalarından yardım istemekten kaçınırım.,8
+89,Ortamda huzursuzluk olmasından rahatsız olurum.,9
+90,Çatışmadan kaçınmak için sık sık kendi fikirlerimi geri planda tutarım.,9
+91,Çevremdekilerle uyum içinde olmaya özen gösteririm.,9
+92,Sosyal gruplarda uzlaşma sağlamaktan zevk alırım.,9
+93,Zaman zaman kendi istek ve ihtiyaçlarımı geri plana atarım.,9
+94,Herkesin rahat ettiği bir ortam yaratmak benim için önemlidir.,9
+95,Yeni bir sorumluluk aldığımda aceleci davranmaktan kaçınırım.,9
+96,Harekete geçmek yerine bazen durup etrafımı gözlemlemeyi tercih ederim.,9
+97,Çoğu zaman sakin kalmayı seçerek çatışma ortamından uzak dururum.,9
+98,İnsanlar arasında barış ve huzur sağlamak benim doğal yeteneğimdir.,9
+99,Çevremdeki insanların mutluluğu için kendi konforumdan vazgeçebilirim.,9

@@ -1,0 +1,33 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+
+# dotenv
+.env
+
+# MacOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+
+
+# Build artifacts
+dist/
+build/
+
+# System files
+Thumbs.db
+
+# Optional: ignore uploads or temp images if added
+public/uploads/
+public/temp/

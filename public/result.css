@@ -1,0 +1,105 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f7fa;
+  margin: 0;
+  padding: 30px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  color: #2c3e50;
+}
+
+#result-container {
+  max-width: 600px;
+  background: white;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#result-container h2 {
+  font-size: 2rem;
+  margin-bottom: 12px;
+  color: #2980b9;
+}
+
+#result-container h3 {
+  font-size: 1.4rem;
+  margin-bottom: 18px;
+  color: #34495e;
+}
+
+#result-container .description {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #555;
+  margin-bottom: 25px;
+  white-space: pre-wrap;
+}
+
+#result-container .type,
+#result-container .wing {
+  font-weight: 700;
+  color: #27ae60;
+}
+
+button#reset-test,
+button#go-test {
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  padding: 12px 26px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+  margin: 0 10px;
+}
+
+button#reset-test:hover,
+button#go-test:hover {
+  background-color: #1f6391;
+}
+
+/* Loading mesajı */
+#loading-msg {
+  font-size: 1.2rem;
+  color: #777;
+  text-align: center;
+}
+
+/* Responsive Stil */
+@media (max-width: 768px) {
+  body {
+    padding: 20px 10px;
+  }
+
+  #result-container {
+    padding: 20px;
+  }
+
+  #result-container h2 {
+    font-size: 2.4rem;
+  }
+
+  #result-container h3 {
+    font-size: 1.8rem;
+  }
+
+  #result-container .description {
+    font-size: 1.3rem;
+  }
+
+  button#reset-test,
+  button#go-test {
+    font-size: 1.2rem;
+    padding: 14px 28px;
+  }
+
+  #loading-msg {
+    font-size: 1.4rem;
+  }
+}

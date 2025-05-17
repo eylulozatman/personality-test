@@ -1,0 +1,139 @@
+/* Genel body ve temel ayarlar */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9fafb;
+  margin: 0;
+  padding: 20px;
+  color: #222;
+  line-height: 1.5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Sayfa numarası ve üst bilgi */
+#question-text {
+  font-size: clamp(1.2rem, 2vw, 1.6rem);
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #34495e;
+  text-align: center;
+  max-width: 90vw;
+}
+
+/* Soruların ve seçeneklerin kapsayıcısı */
+#options-container {
+  background-color: #fff;
+  max-width: 720px;
+  width: 90vw;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+/* Her soru bloğu */
+.question-item {
+  /* Soru metni ve seçenekler arasındaki boşluk */
+}
+
+/* Soru metni */
+.question-item > p {
+  font-size: clamp(1rem, 1.8vw, 1.3rem);
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+/* Seçenek label'ları */
+label {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 18px;
+  margin-bottom: 8px;
+  font-size: clamp(0.9rem, 1.4vw, 1.1rem);
+  cursor: pointer;
+  user-select: none;
+  color: #555;
+  transition: color 0.3s ease;
+}
+
+label:hover {
+  color: #3498db;
+}
+
+/* Radio butonlar */
+input[type="radio"] {
+  margin-right: 8px;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  accent-color: #3498db; /* Modern tarayıcılarda renk */
+  flex-shrink: 0;
+}
+
+/* Butonlar genel */
+button {
+  background-color: #2980b9;
+  color: #fff;
+  border: none;
+  padding: clamp(8px, 1.2vw, 14px) clamp(18px, 2.5vw, 28px);
+  margin: 0 8px;
+  border-radius: 7px;
+  font-size: clamp(0.95rem, 1.6vw, 1.25rem);
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+  user-select: none;
+  min-width: 100px;
+}
+
+button:hover:not(:disabled) {
+  background-color: #1f6391;
+}
+
+button:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
+
+/* Buton grubu */
+#prev-page, #next-page, #show-result {
+  display: inline-block;
+}
+
+/* Sonuç butonu farklı renk */
+#show-result {
+  background-color: #27ae60;
+  min-width: 130px;
+}
+
+#show-result:hover:not(:disabled) {
+  background-color: #1e8449;
+}
+
+/* Responsive ayarlar için flex yön değiştirme */
+@media (max-width: 480px) {
+  #options-container {
+    padding: 20px 15px;
+  }
+  
+  label {
+    font-size: 1rem;
+    margin-right: 12px;
+    display: block;
+  }
+  
+  button {
+    width: 100%;
+    margin: 8px 0;
+    min-width: unset;
+  }
+  
+  #prev-page, #next-page, #show-result {
+    display: block;
+  }
+}
